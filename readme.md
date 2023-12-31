@@ -1,9 +1,9 @@
 # Giga Chat
 Random chat web app using flask and socket-io.
-### Video Demo [YouTube]: https://youtu.be/Ob3R9G3Cctg
+## Video Demo [YouTube]: https://youtu.be/Ob3R9G3Cctg
 <img src="https://github.com/kisxo/host/blob/master/GigaChat/guide_assets/video_overview_thumbnail.png?raw=true" alt="video preview image" width="75%"></img>
 
-### Description
+## Description
 Giga chat is web based chat application through which two stranger can text with each other.
 
 The clint side web UI is inspired from discord.
@@ -12,14 +12,14 @@ The server side is composed from `flask` a python web framework and `flask_socke
 
 The application has only 2 routes homepage `/` route and lobby `/lobby` route.
 
-##### Homepage
+### Homepage
 
 <img src="https://github.com/kisxo/host/blob/master/GigaChat/guide_assets/giga_chat_home_potrait.png?raw=true" alt="homepage image" width="50%"></img>
 
 When a user connects to the server they are directed to `/` route of the flask application route system.
 The homepage is dark purple and space themed. It has only one glowing button `Start chatting`. When a user clicks the button they are redirected to lobby `/lobby` route to start chatting.
 
-##### Lobby
+### Lobby
 
 <img src="https://github.com/kisxo/host/blob/master/GigaChat/guide_assets/giga_chat_lobby_chatting_potrait.png?raw=true" alt="chatting lobby image" width="50%"></img>
 
@@ -33,4 +33,21 @@ And the right button is used to send the entered messages.
 
 <img src="https://github.com/kisxo/host/blob/master/GigaChat/guide_assets/giga_chat_lobby_disconnected_potrait.png?raw=true" alt="disconnected lobby image" width="50%"></img>
 
-### Implementation
+## Implementation
+#### File Structure
+GigaChat
+_ readme.md
+_ app.py
+_ static
+  _ chat_lobby.js
+  _ home.css
+  _ lobby.css
+  _ script.js
+  _ space.jpeg
+_ templates
+  _ homepage.html
+  _ layout.html
+  _ lobby.html
+
+
+The entire application has 
