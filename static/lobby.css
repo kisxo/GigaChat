@@ -1,0 +1,125 @@
+.chat_ui{
+    height: 100vh;
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+}
+
+.lobby_title_container{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255,255,255, .1);
+}
+
+.lobby_title{
+    font-family: 'Viga', sans-serif;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background-image: -webkit-linear-gradient(right, #7360DF, rgb(88, 28, 135));
+    background-image: -moz-linear-gradient(right, #7360DF, rgb(88, 28, 135));
+    background-image: -o-linear-gradient(right, #7360DF, rgb(88, 28, 135));
+    background-image: linear-gradient(to left, #7360DF, rgb(88, 28, 135));
+    -webkit-background-clip: text;
+    color:transparent;
+}
+
+.messages_list_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    flex-grow: 1;
+    /* height: 80%; */
+    color: #ffffff;
+}
+
+.my_bubble{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.my_message{
+    max-width: 90%;
+    overflow-wrap: break-word;
+    padding: .4rem 1rem;
+    background-color: #0C84FE;
+    border-radius: 1rem 1rem 0 1rem;
+}
+
+.stranger_bubble{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.stranger_message{
+    max-width: 90%;
+    overflow-wrap: break-word;
+    padding: .5rem 1rem;
+    background-color: #36353B;
+    border-radius: 1rem 1rem 1rem 0;
+}
+
+.server_message{
+    color: white;
+    text-align: center;
+}
+
+.lobby_button:active{
+    background-color: #f0f0f0;
+}
+
+.unselectable{
+    
+}
+
+#loading_animation{
+    color: #cccccc;
+    font-size: 1.25rem;
+    margin: 5rem 1rem;
+}
+
+.user_input_container{
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    display: flex;
+    align-items: center;
+    background-color: rgba(37,36,46,.75);
+}
+
+.stop{
+    color: #cccccc;
+    text-align: center;
+    background-color: #37306B;
+    padding: 1rem 1rem;
+    margin: .5rem;
+    border-radius: .4rem;
+    font-weight: bold;
+}
+
+.user-input{
+    color: #cccccc;
+    background-color: #333344;
+    flex-grow: 1;
+    padding: .7rem 1rem;
+    border-radius: .4rem;
+    outline: none;
+    border: none;
+}
+
+.send{
+    background-color: #47407B;
+    color: #cccccc;
+    padding: .7rem 1rem;
+    margin: .5rem;
+    border-radius: .4rem;
+}
+.send:active{
+    transform: scale(.90);
+}
+

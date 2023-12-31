@@ -1,0 +1,137 @@
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@400;700&display=swap');
+/*fonts*/
+html {
+    font-size: 16px;
+}
+
+body {
+    /* blend mode colour background-color: #37306B; */
+    background-color: #12171A;
+    background-image: url('/static/space.jpeg');
+    background-blend-mode: darken;
+    margin: 0;
+    
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+a:link, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+.hero-sections {
+    background-size: cover;
+    position: center center;
+    text-align: left;
+    font-family: 'Viga', sans-serif;
+    padding: 2rem;
+    padding-left: 10%;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+.hero-title {
+    color: white;
+    font-size: 2rem;
+}
+
+.hero-giga-chat {
+    font-size: 4rem;
+    background-image: -webkit-linear-gradient(right, #7360DF, rgb(88, 28, 135));
+    background-image: -moz-linear-gradient(right, #7360DF, rgb(88, 28, 135));
+    background-image: -o-linear-gradient(right, #7360DF, rgb(88, 28, 135));
+    background-image: linear-gradient(to left, #7360DF, rgb(88, 28, 135));
+    -webkit-background-clip: text;
+    color:transparent;
+}
+
+.start-chatting-conatiner {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.start-chatting {
+    background-color: #ffffff;
+    color: red;
+    padding: .75rem 1.5rem;
+    border-radius: 1.25rem;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px 4px #ffffff;
+}
+
+.start-chatting:active {
+    transform: scale(0.95);
+    box-shadow: 0px 0px 20px 4px #aaaaff;
+}
+
+.mid-section {
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+    padding: 2rem;
+    padding-left: 10%;
+    font-weight: bold;
+    color: #cccccc;
+}
+
+.mid-section-title {
+    color: #66347F;
+    font-size: 1.75rem;
+}
+
+.features-section {
+    text-align: center;
+    font-family: 'Viga', sans-serif;
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+    color: #cccccc;
+}
+
+.feature-icons {
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+
+.feature-icons-container {
+    display: grid;
+    place-content: center;
+    background-color: #37306B;
+    padding: 2rem;
+    clip-path: circle(2rem);
+}
+
+.feature-title {
+    color: white;
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer-container {
+    margin-top: auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(50,50,100,.15);
+}
+
+.footer-title {
+    text-align: center;
+}
+
+.homepage-ui{
+    display: flex;
+    flex-direction: column;
+    min-height: 100svh;
+}
