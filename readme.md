@@ -35,19 +35,19 @@ And the right button is used to send the entered messages.
 
 ## Implementation
 #### File Structure
-GigaChat
-_ readme.md
-_ app.py
-_ static
-  _ chat_lobby.js
-  _ home.css
-  _ lobby.css
-  _ script.js
-  _ space.jpeg
-_ templates
-  _ homepage.html
-  _ layout.html
-  _ lobby.html
+-  GigaChat
+   -   app.py
+   -   readme.md
+   -  static
+      -  chat_lobby.js
+      -  home.css
+      -  lobby.css
+      -  script.js
+      -  space.jpeg
+   -  templates
+      -  homepage.html
+      -  layout.html
+      -  lobby.html
 
 
 The entire application has 
