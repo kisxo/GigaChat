@@ -10,12 +10,12 @@ Random chat web app using flask and socket-io.
 
 Giga chat is web based chat application through which two stranger can text with each other.
 
-The clint side web UI is inspired from discord.
+The clint side web UI is mostly vanilla css with a few bootstrap features ( mainly for bootstrap icons ).The UI mostly inspired from space and discord.
 
 The server side is composed from `flask` a python web framework and `flask_socketio` a python version of socket io for message transmission between users.
 I have used `socket-io` because it makes message transmission quick and efficient instead of using manual forwarding which is more complex and slow.
-The other option I liked but didnt used due to not being anonymous is P-to-P chat method, as it shared the ip between the users. But the socket-io helps to only send messages and no other data.
 
+The other option I liked but didnt used due to not being anonymous is P-to-P chat method, as it shared the ip between the users. But the socket-io helps to only send messages and no other data.
 
 The application has only 2 routes homepage `/` route and lobby `/lobby` route.
 
@@ -129,7 +129,7 @@ This section describes various features of Giga Chat with help of various bootst
  
 This section shows a link to github profile.
 
-And a shows this is a final project for cs50.
+And also shows that this is a final project for cs50.
 
 ##### layout.html
 
@@ -147,7 +147,7 @@ This the lobby layout it is a big flex box container divided into 3 parts.
 
 ###### tittle section
 
-This is here logo is displayed in lobby.
+This is where the Giga Chat logo is displayed in lobby.
 
 ###### meassages container
 
