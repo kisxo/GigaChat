@@ -1,9 +1,13 @@
 # Giga Chat
+
 Random chat web app using flask and socket-io.
+
 ## Video Demo [YouTube]: https://youtu.be/Ob3R9G3Cctg
+
 <img src="https://github.com/kisxo/host/blob/master/GigaChat/guide_assets/video_overview_thumbnail.png?raw=true" alt="video preview image" width="75%"></img>
 
 ## Description
+
 Giga chat is web based chat application through which two stranger can text with each other.
 
 The clint side web UI is inspired from discord.
@@ -34,7 +38,9 @@ And the right button is used to send the entered messages.
 <img src="https://github.com/kisxo/host/blob/master/GigaChat/guide_assets/giga_chat_lobby_disconnected_potrait.png?raw=true" alt="disconnected lobby image" width="50%"></img>
 
 ## Implementation
-#### File Structure
+
+### File Structure
+
 -  GigaChat
    -   app.py
    -   readme.md
@@ -49,5 +55,34 @@ And the right button is used to send the entered messages.
       -  layout.html
       -  lobby.html
 
+#### app.py
 
-The entire application has 
+It is the main server side python program using flask web framework and socket-io. 
+
+When a user connects to the server and joins a lobby the server looks if any other user is online and waiting for connection.
+If there is a user in the waiting list both are connected using a unique (16 character) pair-id which is generated while joining waiting list.
+
+After the 2 users has been connected the socket listens for messages from both users and transmits the messages to the users.
+
+#### readme.md
+Quick Guide
+
+#### static
+
+##### chat_lobby.js
+
+##### home.css
+
+##### lobby.css
+
+##### script.js
+
+##### space.jpeg
+
+#### templates
+
+##### homepage.html
+
+##### layout.html
+
+##### lobby.html
